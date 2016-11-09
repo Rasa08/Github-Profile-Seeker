@@ -1,6 +1,6 @@
-## angular2-seed
+## Github Profile Seeker
 
-A simple starter project demonstrating the basic concepts of Angular 2.
+ng2 project for the github profile selector.  
 
 
 ### Usage
