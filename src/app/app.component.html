@@ -1,9 +1,24 @@
 <h2>
-  Github Profile Seeker
+  GitHub Master
 </h2>
 
 
-<nav>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <a type="button" class="btn btn-info" [routerLink]="['/'] ">Home</a>
+  </div>
+  <div class="btn-group" role="group">
+    <a type="button" class="btn btn-warning" [routerLink]="['/github', 'angular']">GitHub Repo</a>
+  </div>
+  <div class="btn-group" role="group">
+    <a type="button" class="btn btn-danger" [routerLink]="['/github', 'profile']">GitHub Profile</a>
+  </div>
+  <div class="btn-group" role="group">
+    <a type="button" class="btn btn-info" [routerLink]="['/about']">About</a>
+  </div>
+</div>
+
+<!--<nav>
 	<a [routerLink]="['/']">
     Home
   </a>
@@ -15,7 +30,7 @@
 	<a [routerLink]="['/github', 'angular']">
     Github Repos
   </a>
-</nav>
+</nav>-->
 
 <main>
 	<router-outlet></router-outlet>
